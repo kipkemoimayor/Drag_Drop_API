@@ -93,3 +93,17 @@ nav >ul >li>a:visited{
 nav >ul >li>a:active{
   color: blue;
 }
+.report{
+  display:flex;
+  flex-direction: row;
+}
+.tras{
+  animation: homeAnimation 20s;
+}
+@keyframes homeAnimation {
+  0% {background: green;left: 0px;top:0px;}
+  25%{background: brown;left: 200px;top:0px;}
+  50%{background: yellow;left: 200px;top:200px;}
+  75%{background: green;left: 0px;top:200px;}
+  100%{background: green;left: 0px;top:0px}
+}
