@@ -34,6 +34,8 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
   /* margin: 20px 0 20px 0; */
+  column-count: 2;
+  -webkit-column-count:2;
 }
 
 #welcometext > header{
@@ -110,4 +112,5 @@ nav >ul >li:hover{
   padding: 15px;
   font-weight: bold;
   font-family: robotoFont;
+  text-shadow: 2px 2px 5px black;
 }
