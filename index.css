@@ -26,12 +26,6 @@ header{
   width: 200px;
 }
 
-[headersname]{
-  font-size: 40px;
-  color: #603813;
-  padding: 15px;
-  font-weight: bold;;
-}
 
 #welcometext{
   float: left;
@@ -87,17 +81,15 @@ nav >ul >li:hover{
   background-color: #587;
   color: #245;
 }
-nav >ul >li>a:visited{
-  color: #0876;
-}
-nav >ul >li>a:active{
-  color: blue;
-}
+
+
 .report{
   display:flex;
   flex-direction: row;
 }
 .tras{
+  animation-duration: 10s;
+  animation-delay: 5s;
   animation: homeAnimation 20s;
 }
 @keyframes homeAnimation {
@@ -106,4 +98,16 @@ nav >ul >li>a:active{
   50%{background: yellow;left: 200px;top:200px;}
   75%{background: green;left: 0px;top:200px;}
   100%{background: green;left: 0px;top:0px}
+}
+
+@font-face {
+  font-family: robotoFont;
+  src: url('roboto/Roboto-Thin.ttf');
+}
+[headersname]{
+  font-size: 40px;
+  color: #603813;
+  padding: 15px;
+  font-weight: bold;
+  font-family: robotoFont;
 }
